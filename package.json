@@ -1,0 +1,29 @@
+{
+  "name": "x-deep-flatten-and-move-on-top",
+  "version": "0.0.1",
+  "description": "**xDeepFlattenAndMoveOnTop** Flattens a deep array, moving all occurrences of the specified element to the beginning.",
+  "main": "xDeepFlattenAndMoveOnTop.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc xDeepFlattenAndMoveOnTop.ts"
+  },
+  "author": "nhutdm",
+  "license": "MIT",
+  "dependencies": {
+    "x-deep-array-traversal": "^10.0.1",
+    "x-deep-object-equal": "^10.0.1"
+  },
+  "keywords": [
+    "x-deep-flatten-and-move-on-top",
+    "deeply flatten an array and move specific element on top",
+    "flatten array",
+    "move an item on top of array",
+    "move an element to top of array"
+  ]
+}
